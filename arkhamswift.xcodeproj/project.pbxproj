@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFCDF1912B31AA670015FC37 /* arkhamswiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF1902B31AA670015FC37 /* arkhamswiftApp.swift */; };
+		BFCDF1932B31AA670015FC37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF1922B31AA670015FC37 /* ContentView.swift */; };
+		BFCDF1952B31AA680015FC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF1942B31AA680015FC37 /* Assets.xcassets */; };
+		BFCDF1982B31AA680015FC37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCDF1972B31AA680015FC37 /* Preview Assets.xcassets */; };
+		BFCDF1A22B31AA680015FC37 /* arkhamswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF1A12B31AA680015FC37 /* arkhamswiftTests.swift */; };
+		BFCDF1AC2B31AA680015FC37 /* arkhamswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF1AB2B31AA680015FC37 /* arkhamswiftUITests.swift */; };
+		BFCDF1AE2B31AA680015FC37 /* arkhamswiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCDF1AD2B31AA680015FC37 /* arkhamswiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFCDF19E2B31AA680015FC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDF1852B31AA670015FC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCDF18C2B31AA670015FC37;
+			remoteInfo = arkhamswift;
+		};
+		BFCDF1A82B31AA680015FC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFCDF1852B31AA670015FC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCDF18C2B31AA670015FC37;
+			remoteInfo = arkhamswift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFCDF18D2B31AA670015FC37 /* arkhamswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arkhamswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDF1902B31AA670015FC37 /* arkhamswiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkhamswiftApp.swift; sourceTree = "<group>"; };
+		BFCDF1922B31AA670015FC37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFCDF1942B31AA680015FC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCDF1972B31AA680015FC37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFCDF19D2B31AA680015FC37 /* arkhamswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkhamswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDF1A12B31AA680015FC37 /* arkhamswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkhamswiftTests.swift; sourceTree = "<group>"; };
+		BFCDF1A72B31AA680015FC37 /* arkhamswiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkhamswiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCDF1AB2B31AA680015FC37 /* arkhamswiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkhamswiftUITests.swift; sourceTree = "<group>"; };
+		BFCDF1AD2B31AA680015FC37 /* arkhamswiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkhamswiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFCDF18A2B31AA670015FC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF19A2B31AA680015FC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF1A42B31AA680015FC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFCDF1842B31AA670015FC37 = {
+			isa = PBXGroup;
+			children = (
+				BFCDF18F2B31AA670015FC37 /* arkhamswift */,
+				BFCDF1A02B31AA680015FC37 /* arkhamswiftTests */,
+				BFCDF1AA2B31AA680015FC37 /* arkhamswiftUITests */,
+				BFCDF18E2B31AA670015FC37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFCDF18E2B31AA670015FC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF18D2B31AA670015FC37 /* arkhamswift.app */,
+				BFCDF19D2B31AA680015FC37 /* arkhamswiftTests.xctest */,
+				BFCDF1A72B31AA680015FC37 /* arkhamswiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCDF18F2B31AA670015FC37 /* arkhamswift */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF1902B31AA670015FC37 /* arkhamswiftApp.swift */,
+				BFCDF1922B31AA670015FC37 /* ContentView.swift */,
+				BFCDF1942B31AA680015FC37 /* Assets.xcassets */,
+				BFCDF1962B31AA680015FC37 /* Preview Content */,
+			);
+			path = arkhamswift;
+			sourceTree = "<group>";
+		};
+		BFCDF1962B31AA680015FC37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF1972B31AA680015FC37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFCDF1A02B31AA680015FC37 /* arkhamswiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF1A12B31AA680015FC37 /* arkhamswiftTests.swift */,
+			);
+			path = arkhamswiftTests;
+			sourceTree = "<group>";
+		};
+		BFCDF1AA2B31AA680015FC37 /* arkhamswiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFCDF1AB2B31AA680015FC37 /* arkhamswiftUITests.swift */,
+				BFCDF1AD2B31AA680015FC37 /* arkhamswiftUITestsLaunchTests.swift */,
+			);
+			path = arkhamswiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFCDF18C2B31AA670015FC37 /* arkhamswift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDF1B12B31AA680015FC37 /* Build configuration list for PBXNativeTarget "arkhamswift" */;
+			buildPhases = (
+				BFCDF1892B31AA670015FC37 /* Sources */,
+				BFCDF18A2B31AA670015FC37 /* Frameworks */,
+				BFCDF18B2B31AA670015FC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arkhamswift;
+			productName = arkhamswift;
+			productReference = BFCDF18D2B31AA670015FC37 /* arkhamswift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFCDF19C2B31AA680015FC37 /* arkhamswiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDF1B42B31AA680015FC37 /* Build configuration list for PBXNativeTarget "arkhamswiftTests" */;
+			buildPhases = (
+				BFCDF1992B31AA680015FC37 /* Sources */,
+				BFCDF19A2B31AA680015FC37 /* Frameworks */,
+				BFCDF19B2B31AA680015FC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCDF19F2B31AA680015FC37 /* PBXTargetDependency */,
+			);
+			name = arkhamswiftTests;
+			productName = arkhamswiftTests;
+			productReference = BFCDF19D2B31AA680015FC37 /* arkhamswiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFCDF1A62B31AA680015FC37 /* arkhamswiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCDF1B72B31AA680015FC37 /* Build configuration list for PBXNativeTarget "arkhamswiftUITests" */;
+			buildPhases = (
+				BFCDF1A32B31AA680015FC37 /* Sources */,
+				BFCDF1A42B31AA680015FC37 /* Frameworks */,
+				BFCDF1A52B31AA680015FC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFCDF1A92B31AA680015FC37 /* PBXTargetDependency */,
+			);
+			name = arkhamswiftUITests;
+			productName = arkhamswiftUITests;
+			productReference = BFCDF1A72B31AA680015FC37 /* arkhamswiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFCDF1852B31AA670015FC37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BFCDF18C2B31AA670015FC37 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					BFCDF19C2B31AA680015FC37 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BFCDF18C2B31AA670015FC37;
+					};
+					BFCDF1A62B31AA680015FC37 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BFCDF18C2B31AA670015FC37;
+					};
+				};
+			};
+			buildConfigurationList = BFCDF1882B31AA670015FC37 /* Build configuration list for PBXProject "arkhamswift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFCDF1842B31AA670015FC37;
+			productRefGroup = BFCDF18E2B31AA670015FC37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFCDF18C2B31AA670015FC37 /* arkhamswift */,
+				BFCDF19C2B31AA680015FC37 /* arkhamswiftTests */,
+				BFCDF1A62B31AA680015FC37 /* arkhamswiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFCDF18B2B31AA670015FC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDF1982B31AA680015FC37 /* Preview Assets.xcassets in Resources */,
+				BFCDF1952B31AA680015FC37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF19B2B31AA680015FC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF1A52B31AA680015FC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFCDF1892B31AA670015FC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDF1932B31AA670015FC37 /* ContentView.swift in Sources */,
+				BFCDF1912B31AA670015FC37 /* arkhamswiftApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF1992B31AA680015FC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDF1A22B31AA680015FC37 /* arkhamswiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCDF1A32B31AA680015FC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCDF1AE2B31AA680015FC37 /* arkhamswiftUITestsLaunchTests.swift in Sources */,
+				BFCDF1AC2B31AA680015FC37 /* arkhamswiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFCDF19F2B31AA680015FC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCDF18C2B31AA670015FC37 /* arkhamswift */;
+			targetProxy = BFCDF19E2B31AA680015FC37 /* PBXContainerItemProxy */;
+		};
+		BFCDF1A92B31AA680015FC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCDF18C2B31AA670015FC37 /* arkhamswift */;
+			targetProxy = BFCDF1A82B31AA680015FC37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFCDF1AF2B31AA680015FC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFCDF1B02B31AA680015FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFCDF1B22B31AA680015FC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arkhamswift/Preview Content\"";
+				DEVELOPMENT_TEAM = G8L3NY7NWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = archam.arkhamswift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFCDF1B32B31AA680015FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"arkhamswift/Preview Content\"";
+				DEVELOPMENT_TEAM = G8L3NY7NWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = archam.arkhamswift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFCDF1B52B31AA680015FC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8L3NY7NWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = archam.arkhamswiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arkhamswift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arkhamswift";
+			};
+			name = Debug;
+		};
+		BFCDF1B62B31AA680015FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8L3NY7NWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = archam.arkhamswiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arkhamswift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/arkhamswift";
+			};
+			name = Release;
+		};
+		BFCDF1B82B31AA680015FC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8L3NY7NWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = archam.arkhamswiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arkhamswift;
+			};
+			name = Debug;
+		};
+		BFCDF1B92B31AA680015FC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8L3NY7NWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = archam.arkhamswiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arkhamswift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFCDF1882B31AA670015FC37 /* Build configuration list for PBXProject "arkhamswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDF1AF2B31AA680015FC37 /* Debug */,
+				BFCDF1B02B31AA680015FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDF1B12B31AA680015FC37 /* Build configuration list for PBXNativeTarget "arkhamswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDF1B22B31AA680015FC37 /* Debug */,
+				BFCDF1B32B31AA680015FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDF1B42B31AA680015FC37 /* Build configuration list for PBXNativeTarget "arkhamswiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDF1B52B31AA680015FC37 /* Debug */,
+				BFCDF1B62B31AA680015FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCDF1B72B31AA680015FC37 /* Build configuration list for PBXNativeTarget "arkhamswiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCDF1B82B31AA680015FC37 /* Debug */,
+				BFCDF1B92B31AA680015FC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFCDF1852B31AA670015FC37 /* Project object */;
+}
